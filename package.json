@@ -7,7 +7,7 @@
     "eject": "react-scripts eject",
     "fix": "prettier --write src",
     "lint": "prettier --check src",
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test",
     "prepare": "husky install"
   },

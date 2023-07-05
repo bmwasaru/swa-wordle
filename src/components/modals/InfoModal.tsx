@@ -26,7 +26,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="I" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-      Herufi W iko katika neno na mahali pazuri.
+      Herufi W iko katika neno na mahali panapofaa.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">

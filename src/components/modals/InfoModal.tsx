@@ -8,10 +8,9 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Jinsi ya Kucheza" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+      Bahatisha neno uko na majaribio 6. Baada ya kila kubahatisha, rangi ya vigae itabadilika ili kuonyesha jinsi bahatisho lako lilivyokuwa karibu na neno.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -21,50 +20,50 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           value="W"
           status="correct"
         />
-        <Cell value="E" isCompleted={true} />
-        <Cell value="A" isCompleted={true} />
-        <Cell value="R" isCompleted={true} />
-        <Cell value="Y" isCompleted={true} />
+        <Cell value="I" isCompleted={true} />
+        <Cell value="M" isCompleted={true} />
+        <Cell value="B" isCompleted={true} />
+        <Cell value="I" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+      Herufi W iko katika neno na mahali pazuri.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="P" isCompleted={true} />
-        <Cell value="I" isCompleted={true} />
+        <Cell value="T" isCompleted={true} />
+        <Cell value="O" isCompleted={true} />
         <Cell
           isRevealing={true}
           isCompleted={true}
           value="L"
           status="present"
         />
-        <Cell value="O" isCompleted={true} />
-        <Cell value="T" isCompleted={true} />
+        <Cell value="E" isCompleted={true} />
+        <Cell value="A" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+      Herufi L iko kwenye neno lakini iko mahali pasipofaa.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="V" isCompleted={true} />
-        <Cell value="A" isCompleted={true} />
-        <Cell value="G" isCompleted={true} />
+        <Cell value="T" isCompleted={true} />
+        <Cell value="I" isCompleted={true} />
+        <Cell value="M" isCompleted={true} />
         <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" isCompleted={true} />
+        <Cell value="A" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+      Herufi U haipo katika neno mahali popote.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+      Hili ni toleo la chanzo huria la neno mchezo wa kubahatisha sote tunaujua na
+         upendo -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/bmwasaru/swa-wordle"
           className="font-bold underline"
         >
-          check out the code here
+          Angalia msimbo wa programu
         </a>{' '}
       </p>
     </BaseModal>

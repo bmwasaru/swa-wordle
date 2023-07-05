@@ -53,7 +53,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="A" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-      Herufi U haipo katika neno mahali popote.
+      Herufi U haiko katika neno mahali popote.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">

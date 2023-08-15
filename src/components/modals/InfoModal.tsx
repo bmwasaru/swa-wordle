@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="Jinsi ya Kucheza" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-      Bahatisha neno uko na majaribio 6. Baada ya kila kubahatisha, rangi ya vigae itabadilika ili kuonyesha jinsi bahatisho lako lilivyokuwa karibu na neno.
+      Kila siku tuna neno la kipekee. Bahatisha neno uko na majaribio 6. Kila safu inawakilisha jaribio. Baada ya kila jaribio, rangi ya vigae itabadilika ili kuonyesha jinsi bahatisho lako lilivyokuwa karibu na neno.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">

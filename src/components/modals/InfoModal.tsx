@@ -55,17 +55,6 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
       Herufi U haiko katika neno mahali popote.
       </p>
-
-      <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-      Hili ni toleo la chanzo huria la neno mchezo wa kubahatisha sote tunaujua na
-         upendo -{' '}
-        <a
-          href="https://github.com/bmwasaru/swa-wordle"
-          className="font-bold underline"
-        >
-          Angalia msimbo wa programu
-        </a>{' '}
-      </p>
     </BaseModal>
   )
 }

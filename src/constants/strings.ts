@@ -18,7 +18,7 @@ export const NOT_CONTAINED_MESSAGE = (letter: string) =>
 export const ENTER_TEXT = 'Ingia'
 export const DELETE_TEXT = 'Futa'
 export const STATISTICS_TITLE = 'Takwimu'
-export const GUESS_DISTRIBUTION_TEXT = 'Nadhani Usambazaji'
+export const GUESS_DISTRIBUTION_TEXT = 'Usambazaji wa Majaribio'
 export const NEW_WORD_TEXT = 'Neno jipya'
 export const SHARE_TEXT = 'Sambaza'
 export const SHARE_FAILURE_TEXT =

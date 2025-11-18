@@ -9,7 +9,7 @@ import { MigrationStats } from '../modals/MigrateStatsModal'
 
 export const EmigratePanel = () => {
   const [isCopyButtonEnabled, setIsCopyButtonEnabled] = useState(true)
-  const [copyButtonText, setCopyButtonText] = useState('Copy')
+  const [copyButtonText, setCopyButtonText] = useState('Nakili')
   const stats = loadStats()
   const gameState = loadGameStateFromLocalStorage(true)
 
@@ -32,7 +32,7 @@ export const EmigratePanel = () => {
         htmlFor="message"
         className="mb-2 block text-left text-sm font-medium text-gray-900 dark:text-gray-400"
       >
-        Copy your migration code:
+        Nakili msimbo (code) wako wa uhamiaji:
       </label>
       <textarea
         id="emigration-code"

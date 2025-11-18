@@ -31,7 +31,7 @@ export const MigrateStatsModal = ({ isOpen, handleClose }: Props) => {
       <div className="w-full columns-3 gap-0">
         <div className="mb-4 flex items-center">
           <p className="mb-0 flex text-sm font-medium text-gray-900 dark:text-gray-300">
-            Hiki ni kifaa changu:
+            Hiki ni kifaa:
           </p>
         </div>
         <div className="mb-4 flex items-center">

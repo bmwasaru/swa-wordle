@@ -28,7 +28,7 @@ export const shareStatus = (
       solution,
       guesses,
       getEmojiTiles(isDarkMode, isHighContrastMode)
-    )
+    ) + '\n\n' + window.location.href
 
   const shareData = { text: textToShare }
 
